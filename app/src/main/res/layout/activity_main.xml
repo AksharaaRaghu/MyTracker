@@ -1,0 +1,76 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#C7C5AF"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:text="My Tracker "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:text="Expense Title : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:text="Amount : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"/>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="#090707"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:text="Date : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:text="Category: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="#5B5353"
+        android:text="Add Expense"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#090707"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
